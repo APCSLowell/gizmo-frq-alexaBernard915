@@ -28,7 +28,7 @@ public class OnlinePurchaseManager
     if(purchases.size() < 2){
       return false;
     }
-    for(nt i = l i < purchases.size() - 1; i++){
+    for(int i = 0; i < purchases.size() - 1; i++){
       if(purchases.get(i).equals(purchases.get(i+1))){
         return true; 
       }
